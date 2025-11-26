@@ -32,7 +32,6 @@ jobs:
         with:
           # Use the renv lockfile to determine package versions
           # This ensures the exact environment you developed in is replicated.
-          renv: true 
           # You can specify other dependencies here if not using renv:
           # packages: shiny, other_package
 
