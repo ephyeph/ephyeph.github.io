@@ -27,6 +27,15 @@ jobs:
         with:
           cache-version: 1
 
+      - name: Install R Dependencies
+        uses: r-lib/actions/setup-r-dependencies@v2
+        with:
+          # Use the renv lockfile to determine package versions
+          # This ensures the exact environment you developed in is replicated.
+          renv: true 
+          # You can specify other dependencies here if not using renv:
+          # packages: shiny, other_package
+
       - name: Render and Publish
         uses: quarto-dev/quarto-actions/publish@v2
         with:
