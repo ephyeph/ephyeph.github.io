@@ -9,8 +9,15 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "ephyeph.github.io",
+    "title": "Indianapolis Weather Trends Analysis (2020 - 2025)",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2"
+    "text": "This analysis investigates weather trends in Indianapolis over a five-year period (2019–2023), focusing on temperature fluctuations, precipitation patterns, and seasonal variations. Weather data were acquired from the Open-Meteo API, encompassing daily maximum/minimum temperatures and total precipitation. The analysis highlighted distinct seasonal patterns, including consistent summer peaks in maximum temperatures and winter lows, and identified frequent precipitation events and occasional extreme weather conditions such as heat waves (&gt;90°F) and significant rainfall events (&gt;25 mm/day). An interactive dashboard was developed using R, Quarto, and Shiny, enabling dynamic exploration of weather data through user-defined date ranges, which supports deeper insights into Indianapolis’s climate trends.\n\n\n\nlibrary(dplyr)\n\n\nAttaching package: 'dplyr'\n\n\nThe following objects are masked from 'package:stats':\n\n    filter, lag\n\n\nThe following objects are masked from 'package:base':\n\n    intersect, setdiff, setequal, union\n\nlibrary(lubridate)\n\n\nAttaching package: 'lubridate'\n\n\nThe following objects are masked from 'package:base':\n\n    date, intersect, setdiff, union\n\nlibrary(openmeteo)\nlibrary(tidyr)\nlibrary(purrr)\nlibrary(ggplot2)\nlibrary(shiny)"
+  },
+  {
+    "objectID": "index.html#abstract",
+    "href": "index.html#abstract",
+    "title": "Indianapolis Weather Trends Analysis (2020 - 2025)",
+    "section": "",
+    "text": "This analysis investigates weather trends in Indianapolis over a five-year period (2019–2023), focusing on temperature fluctuations, precipitation patterns, and seasonal variations. Weather data were acquired from the Open-Meteo API, encompassing daily maximum/minimum temperatures and total precipitation. The analysis highlighted distinct seasonal patterns, including consistent summer peaks in maximum temperatures and winter lows, and identified frequent precipitation events and occasional extreme weather conditions such as heat waves (&gt;90°F) and significant rainfall events (&gt;25 mm/day). An interactive dashboard was developed using R, Quarto, and Shiny, enabling dynamic exploration of weather data through user-defined date ranges, which supports deeper insights into Indianapolis’s climate trends.\n\n\n\nlibrary(dplyr)\n\n\nAttaching package: 'dplyr'\n\n\nThe following objects are masked from 'package:stats':\n\n    filter, lag\n\n\nThe following objects are masked from 'package:base':\n\n    intersect, setdiff, setequal, union\n\nlibrary(lubridate)\n\n\nAttaching package: 'lubridate'\n\n\nThe following objects are masked from 'package:base':\n\n    date, intersect, setdiff, union\n\nlibrary(openmeteo)\nlibrary(tidyr)\nlibrary(purrr)\nlibrary(ggplot2)\nlibrary(shiny)"
   }
 ]
